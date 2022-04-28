@@ -226,7 +226,7 @@ p{
         height: 32vh;
     }
 }
-@media screen and (min-width: 400px) and (max-width: 600px) {
+@media screen and (min-width: 420px) and (max-width: 600px) {
     .nav-links{
         left: -5%;
         gap: 25px;
@@ -248,7 +248,7 @@ p{
         display: none;
     }
 }
-@media screen and (min-width: 200px) and (max-width: 400px) {
+@media screen and (min-width: 200px) and (max-width: 420px) {
     .top{
         position: relative;
         top: -10%;
