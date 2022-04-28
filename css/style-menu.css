@@ -128,3 +128,10 @@ main {
     display: grid;
     place-items: center;
 }
+
+@media screen and (max-width: 500px){
+    .btn-container{
+        flex-direction: column;
+        gap: 10px;
+    }
+}
