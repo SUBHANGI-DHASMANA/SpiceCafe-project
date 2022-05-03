@@ -7,11 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/fav-sc.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/style-index.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Spice cafe</title>
 
 </head>
 
 <body>
+    <div class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+    </div>
     <section class="hero">
         <nav class="navbar">
             <div class="nav-center">
@@ -90,6 +94,12 @@
     </div>
 
     <script src="script.js"></script>
+    <script>
+        const loader = document.querySelector(".loader-wrapper");
+        window.addEventListener("load",function () {
+            loader.style.display = "none";
+        });
+    </script>
 </body>
 
 </html>
