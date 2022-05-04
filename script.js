@@ -1,6 +1,7 @@
 const loader = document.querySelector(".loader-wrapper");
-        window.addEventListener("load",function () {
-            loader.style.display = "none";
+window.addEventListener("load", function () {
+  document.querySelector("body").style.overflow = "scroll";
+  loader.style.display = "none";
 });
 
 const menu = [
