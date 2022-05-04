@@ -169,6 +169,13 @@ p{
     background-size: cover;
     height: 100vh;
 }
+.img-bttm{
+    background-image: url(../img/img-bttm.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
 .bottom{
     text-align: center;
     padding-top: 100px;
