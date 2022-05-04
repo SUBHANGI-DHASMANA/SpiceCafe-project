@@ -15,6 +15,7 @@ body{
 }
 .bg{
     background-image: url(../img/about-bg.jpg);
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -88,6 +89,7 @@ body{
 .bottom{
     height: 110vh;
     background-image: url(../img/about-bg-2.jpg);
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
 }
