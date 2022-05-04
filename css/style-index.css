@@ -191,6 +191,45 @@ p{
     color: white;
 }
 
+/* form */
+
+input,
+textarea {
+    width: 650px;
+    padding: 0;
+    margin: 0;
+    resize: none;
+    overflow: auto;
+    background: none;
+    outline: none;
+    border-width: 0 0 2px;
+}
+.form {
+    font-size: 1.5rem;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 0;
+}
+.txt-box {
+    width: 285px;
+}
+#btn{
+    color:#c59d5f;
+    background: none;
+    border: 1px solid #c59d5f;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s linear;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: medium;
+}
+#btn:hover{
+    color: white;
+    background-color: #c59d5f;
+}
+
 
 @media screen and (min-width: 1200px) and (max-width: 1400px) {
     .nav-links{
